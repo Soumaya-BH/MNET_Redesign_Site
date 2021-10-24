@@ -113,7 +113,9 @@ list-style: none;
 	left: -999em; /* Hop, on envoi loin du champ de vision */
 }
 
-
+.readMore .addText {
+    display: none;
+}
 .nav-links li ul li 
 {
 	border: 1px solid #FFF; 
@@ -128,9 +130,9 @@ list-style: none;
 	padding-left: 10px;
 	text-indent: 10px;
 	float: none;
-    
-
-}
+    position: relative;
+    z-index: 100;
+    }
 
 
 .nav-links  li a:hover 

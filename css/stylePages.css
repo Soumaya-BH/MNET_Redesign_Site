@@ -1,20 +1,22 @@
 .welcome_pages{
     background-image: url('../images/bg_home-01.png');
     width: 100vw;
-    min-height: 30vh;
+    min-height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .title_page{
     position: absolute;
- top: 15%; 
+ top: 20%; 
  font-size: 6rem;
  text-align: center;
  color: #FFF;
  width: 100%;
  font-family: 'Acme', sans-serif;
+ z-index: 0;
 }
+
 .about_services{
     margin: 20px;
     font-size: 1.3rem;
